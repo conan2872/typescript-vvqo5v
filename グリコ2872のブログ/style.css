@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://f.easyuploader.app/eu-prd/upload/20200605195232_394148656745564e6976.jpg);
+
+}
+.nav{
+   display:flex;
+   /* font-size:1.25rem;*/
+    text-transform: uppercase;
+    margin-top:34px;
+    list-style:none;
+
+}
+
+
+/*追記*/
+header{
+width:100%;
+box-sizing: border-box;/*はみ出るのを防ぐ*/
+}
+
+nav{
+overflow-x: auto; white-space: nowrap;/*はみ出たぶんを横スクロール*/
+width:100%;
+}
+/*追記終わり*/
+
+
+.nav li{
+    margin-left:36px;
+}
+
+.nav a{
+    color:#000000;
+}
+
+.nav a:hover{
+    color:#808080;
+}
+
+.page{
+    display:flex;
+    justify-content:space-between;
+    background-color:#fff;
+
+
+}
+
+.wrapper{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 4%;
+}
+footer {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 26px 0;
+    margin-top: auto;
+    opacity: 0.5;
+}
+
+footer p {
+    color:#000000;
+    font-size: 0.875rem;
+
+}
+
+.end{
+    display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.box11{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:600px){
+  img{
+   max-width:100%;
+}
+  .nav a{
+    font-size:12.5px;
+}
+.nav{
+    font-size:1rem;
+    margin-top:14px;
+}
+.nav li{
+    margin:0 10px;
+}
+.page{
+    flex-direction:column;
+    align-items:center;
+}
+}
+body {text-align:center}
